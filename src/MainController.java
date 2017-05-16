@@ -1,8 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Zver on 08.05.2017.
@@ -37,7 +35,6 @@ public class MainController {
                     break;
                 case 7:
                     controller.getAverage();
-
                     break;
                 case 8:
                     System.out.println("Thanks for using my program,goodbye");
@@ -49,11 +46,7 @@ public class MainController {
 
         }
         while (decision != 8);
-
-
     }
-
-
 }
 
 

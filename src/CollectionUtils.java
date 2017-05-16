@@ -21,10 +21,6 @@ public class CollectionUtils {
             average += list.get(i);
         }
         average /= list.size();
-
         return average;
-
     }
-
-
 }
